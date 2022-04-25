@@ -1,0 +1,336 @@
+/* 
+    Created on : 14/11/2018, 01:19:35 PM
+    Author     : dann
+*/
+
+*{
+ font-size: 13px; 
+}
+
+h1 { 
+  display: block;
+  font-size: 3em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h2 {
+  display: block;
+  font-size: 2.5em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h3 { 
+  display: block;
+  font-size: 2.17em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h4 { 
+  display: block;
+  font-size: 2em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h5 { 
+  display: block;
+  font-size: 1.83em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h6 { 
+  display: block;
+  font-size: 1.67em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*buttons*/
+.native-button-green-rounded {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #73C191;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.native-button-green {
+  background-color: #73C191;
+  color: #FFFFFF;
+  transition: all, 0.2s;
+}
+
+.native-button-green:hover {
+  box-shadow: 0.1rem 0.1rem 0.3rem #aaaaaa;
+}
+
+.native-button-red {
+  background-color: #F44336;
+  color: #FFFFFF;
+  transition: all, 0.2s;
+}
+
+.native-button-red:hover {
+  box-shadow: 0.1rem 0.1rem 0.3rem #aaaaaa;
+}
+
+.native-button-blue {
+  background-color: #75BDD3;
+  color: #FFFFFF;
+  transition: all, 0.2s;
+}
+
+.native-button-blue:hover {
+  box-shadow: 0.1rem 0.1rem 0.3rem #aaaaaa;
+}
+
+.native-button-bar:hover {
+  box-shadow: none;
+  background-color: #75BDD3;
+}
+
+/*backgrounds*/
+.native-bg-img1-large {
+  background: url("../../Images/bg1.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -999;
+}
+
+.native-bg-img2-large {
+  background: url("../../Images/bg2.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -999;
+}
+
+.native-bg-img1-medium-small {
+  background: url("../../Images/bg1.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -999;
+}
+
+.native-bg-img2-medium-small {
+  background: url("../../Images/bg2.jpg");
+  background-size: auto center;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -999;
+}
+
+.native-bg-gradient-transparent {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -998;
+  background-image: linear-gradient(to right, #73C191, #599BBE);
+  box-shadow: inset 15rem 15rem 5rem #aaaaaa;
+}
+
+.native-bg-black-transparent {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -997;
+  background-color: #000000;
+}
+
+.native-bg-gradient {
+  background-image: linear-gradient(to right, #73C191, #599BBE);
+}
+
+.native-bg-grey {
+  background-color: #F3F0F1;
+}
+
+.native-bg-green {
+  background-color: #61A899;
+}
+
+.native-bg-blue {
+  background-color: #599BBE;
+}
+
+.native-bg-category-1 {
+  background-color: #FF9D68;
+}
+
+.native-bg-category-2 {
+  background-color: #7CC6FF;
+}
+
+.native-bg-category-3 {
+  background-color: #75BDD3;
+}
+
+.native-bg-category-4 {
+  background-color: #CCCCCC;
+}
+
+/*input elements*/
+label {
+  font-size: 11px;
+}
+
+.w3-input {
+  background: none;
+  border-color: #599BBE;
+}
+
+.w3-input-padding-small {
+  padding: 0.2rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"], 
+input[type="date"] {
+    -moz-appearance: textarea;
+}
+
+input[type="date"] {
+  padding: 0.14rem;
+}
+
+textarea {
+  resize: none;
+  height: 5rem;
+}
+
+.native-input-search {
+  background-color: #FFFFFF;
+  border-color: #599BBE;
+}
+
+/*texto*/
+.native-text-white {
+ color: #FFFFFF; 
+}
+
+.native-text-black {
+  color: #000000;
+}
+
+.native-text-blue {
+  color: #599BBE;
+}
+
+.native-text-blue-light {
+  color: #75BDD3;
+}
+
+.native-text-grey {
+  color: #999999;
+}
+
+.w3-bar {
+  font-size: 15px;
+  padding: 0.1rem;
+}
+
+.w3-bar img {
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.w3-bar-item {
+  padding: 0.1rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #599BBE;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+/*efectos*/
+
+.native-blur {
+  filter: blur(0.9rem); 
+}
+
+.native-cursor-pointer {
+  cursor: pointer;
+}
+
+/*contenedores*/
+
+.native-padding-03 {
+  padding: 0.3rem;
+}
+
+.native-full-height {
+  height: 100%;
+}
+
+.native-80-width {
+  width: 80%;
+}
+
+.native-full-width {
+  width: 100%;
+}
+
+/*ScrollBar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #F1F1F1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

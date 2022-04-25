@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/11/2018, 10:38:06 PM
+    Author     : elect
+*/
+
+.native-square-register {
+  width: 10rem;
+  height: 5rem;
+}
+
+.native-register-box {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.native-img-upload-register {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  margin: auto;
+  margin-top: -5rem;
+}
+
+.native-img-upload-register img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.native-form-group {
+  margin-top: 0.2rem;
+}

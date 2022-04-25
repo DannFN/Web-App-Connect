@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/11/2018, 05:06:16 PM
+    Author     : elect
+*/
+
+.native-full-height {
+  height: 100vh;
+}
+
+.native-header {
+  font-size: 50px;
+}
+
+.native-landing-container {
+  padding-top: 10rem;
+}
+
+.native-text-jumbo {
+  width: 80%;
+}
+
+.native-jumbo-text {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.native-bennefits-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.native-bennefits-list-container-parent{
+  height: 100%;
+}
+
+.native-bennefits-list-container-child{
+  width: 100%;
+}
+
+.native-contact-container {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.native-footer-container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}

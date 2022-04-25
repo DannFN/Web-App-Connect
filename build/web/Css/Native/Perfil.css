@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/11/2018, 12:28:22 PM
+    Author     : elect
+*/
+
+.native-banner-organization {
+  padding: 0;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+.native-img-profile-picture {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin: auto;
+}
+
+.native-img-profile-picture img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.native-profile-slogan {
+ font-style: italic; 
+}
+
+.native-img-profile-agent {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.native-img-profile-agent img{
+  width: 100%;
+  border-radius: 50%;
+}
+

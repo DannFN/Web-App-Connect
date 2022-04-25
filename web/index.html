@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <link href="Css/W3/w3.css"
+          rel="stylesheet"
+          type="text/css"/>
+    <link href="Css/Native/General.css"
+          rel="stylesheet"
+          type="text/css"/>
+    <link href="Css/Native/Index.css"
+          rel="stylesheet"
+          type="text/css"/>
+    <!--Icons-->
+    <link rel="stylesheet" 
+          href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" 
+          integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" 
+          crossorigin="anonymous">
+    <!--Scipts-->
+    <script src="JavaScript/Native/Front-End.js" 
+            type="text/javascript"></script>
+  </head>
+  
+  <body ondrag="return false"
+        ondrop="return false">
+    
+    <!--Backgrounds-->
+    
+    <div class="w3-hide-small
+         w3-hide-medium
+         native-bg-img1-large">
+      <!--fondo-->
+    </div>
+    
+    <div class="w3-hide-large
+         native-bg-img1-medium-small">
+      <!--fondo-->
+    </div>
+    
+    <div class="w3-opacity-min
+         native-bg-gradient-transparent">
+      <!--fondo-->
+    </div>
+    
+    <!--NavBars-->
+        
+    <div class="w3-bar
+         w3-card-2
+         w3-top
+         native-bg-gradient
+         native-padding-03  
+         native-text-white">
+      
+      <span class="w3-bar-item">Connect</span>
+      
+      <a href="#contact" 
+         class="w3-bar-item 
+         w3-btn
+         w3-right
+         w3-hide-small
+         w3-hide-medium
+         w3-round-small
+         native-button-bar">Contacto</a>
+         
+      <a href="#organization" 
+         class="w3-bar-item 
+         w3-btn
+         w3-right
+         w3-hide-small
+         w3-hide-medium
+         w3-round-small
+         native-button-bar">Organizaciones</a>    
+      
+      <a href="#user" 
+         class="w3-bar-item 
+         w3-btn
+         w3-right
+         w3-hide-small
+         w3-hide-medium
+         w3-round-small
+         native-button-bar">Usuarios</a> 
+         
+      <a href="#main" 
+         class="w3-bar-item 
+         w3-btn
+         w3-right
+         w3-hide-small
+         w3-hide-medium
+         w3-round-small
+         native-button-bar">Inicio</a> 
+         
+      <a href="javascript:void(0)" 
+         class="w3-bar-item 
+         w3-btn
+         w3-right
+         w3-hide-large
+         w3-round-small
+         native-button-bar" 
+         onclick="colapsible()">&#9776;</a>  
+      
+      <div id="colapsible" 
+           class="w3-bar-block
+           w3-hide 
+           w3-hide-large
+           native-bg-gradient">
+        <a href="#main" 
+           class="w3-bar-item 
+           w3-btn
+           w3-round-small
+           native-button-bar"
+           onclick="colapsible()">Inicio</a>
+        
+        <a href="#user" 
+           class="w3-bar-item 
+           w3-btn
+           w3-round-small
+           native-button-bar"
+           onclick="colapsible()">Usuarios</a>
+
+        <a href="#organization" 
+           class="w3-bar-item 
+           w3-btn
+           w3-round-small
+           native-button-bar"
+           onclick="colapsible()">Organizaciones</a>
+
+        <a href="#contact" 
+           class="w3-bar-item 
+           w3-btn
+           w3-round-small
+           native-button-bar"
+           onclick="colapsible()">Contacto</a>
+      </div>
+    </div>
+    
+    <!--Landig Container-->
+    
+    <div id="main"
+         class="w3-row
+         w3-container
+         w3-display-container
+         native-full-height">
+      <div class="w3-col
+           l6
+           m10
+           s12
+           w3-center
+           w3-display-topmiddle
+           native-landing-container">
+        <div class="w3-row">
+          <h1 class="native-header
+            native-text-white">Connect</h1>
+
+          <p class="native-text-white">
+            Encuentra tu primer empleo y obten experiencia para destacar en el 
+            mercado laboral
+          </p>
+        </div>
+        
+        <form>
+          <div class="w3-row-padding">
+
+            <div class="w3-col
+               l4
+               m4
+               s12">
+              <input type="email"
+                     class="w3-input
+                     w3-round-small
+                     w3-white"
+                     id="mail"
+                     name="mail"
+                     placeholder="Correo Electronico"
+                     required>
+            </div>
+            
+            <div class="w3-hide-large
+                 w3-hide-medium">
+              <br><br><br>
+            </div>
+
+            <div class="w3-col
+                 l4
+                 m4
+                 s12">
+              <input type="password"
+                     class="w3-input
+                     w3-round-small
+                     w3-white"
+                     id="pass"
+                     name="pass"
+                     placeholder="Contraseña"
+                     required>
+            </div>
+
+            <div class="w3-hide-large
+                 w3-hide-medium">
+              <br><br><br>
+            </div>
+            
+            <div class="w3-col
+                 l4
+                 m4
+                 s12">
+              <input type="submit"
+                     class="w3-btn
+                     w3-medium
+                     w3-round-small
+                     native-button-green"
+                     style="width: 100%;"
+                     value="Entrar">
+            </div>
+
+          </div>
+        </form>  
+        
+        <div class="w3-row">
+          <p class="native-text-white">
+            ¿No tienes una cuenta? Registrate 
+            <a href="registroUsuarioE.jsp">como usuario explorador</a>
+            o
+            <a href="registroOrganizacion.jsp">como organización</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!--Bennefits Container-->
+    
+    <div id="user" 
+         class="w3-row
+         native-full-height
+         native-bg-green
+         native-text-white">
+      
+      <div class="w3-row
+           w3-hide-large
+           w3-center">
+        <h2 class="w3-hide-small">Descubre una nueva forma de incorporarte al mercado laboral...</h2>
+        <h4 class="w3-hide-medium">Descubre una nueva forma de incorporarte al mercado laboral...</h4>
+      </div>
+      
+      <div class="w3-col
+           l6
+           m12
+           s12
+           native-full-height
+           native-bg-green">
+        
+        <div class="w3-hide-small
+             w3-hide-medium
+             w3-display-container
+             native-bennefits-list-container-parent">
+          
+          <div class="w3-row
+               w3-display-middle
+               native-bennefits-list-container-child">
+            <div class="w3-row">
+              <div class="w3-col
+                   l2">
+                <!--Empty-->
+                &nbsp;
+              </div>
+              
+              <div class="w3-col
+                   l8">
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center
+                       native-text-black">
+                    <i class="fas 
+                       fa-building"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    Conoce mejor a las organizaciones con quienes podrías emplearte
+                  </div>
+                </div>
+
+                <br>
+                
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center">
+                    <i class="far 
+                       fa-address-card
+                       native-text-black"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    Genera un CV por cada perfil profesional con el que cuentes
+                  </div>
+                </div>
+                
+                <br>
+                
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center">
+                    <i class="fas 
+                       fa-university
+                       native-text-black"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    De la escuela a tu primer empleo
+                  </div>
+                </div>
+                
+                <br>
+                
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center">
+                    <i class="fas 
+                       fa-street-view
+                       native-text-black"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    Encuentra ofertas cercanas a ti en tiempo real (para 
+                    dispositivos moviles)
+                  </div>
+                </div>
+                
+                <br>
+                
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center">
+                    <i class="fab 
+                       fa-leanpub
+                       native-text-black"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    Consulta articulos que pueden ayudarte a destacar en el 
+                    mercado laboral
+                  </div>
+                </div>
+              </div>
+              
+              <div class="w3-col
+                   l2">
+                <!--Empty-->
+                &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="w3-hide-large
+             w3-hide-small">
+          <!--Medium-->
+        </div>
+        
+        <div class="w3-hide-large
+             w3-hide-medium">
+          <!--Small-->
+        </div>
+      </div>
+      
+      <div class="w3-col
+           l6
+           s12
+           w3-hide-medium
+           w3-hide-small
+           w3-display-container
+           native-full-height
+           native-bg-green">
+        <div class="w3-display-middle
+             native-text-jumbo">
+          <div class="w3-row">
+            <h1 class="native-jumbo-text">Descubre una nueva forma de incorporarte al mercado laboral...</h1>
+          </div>          
+          <div class="w3-row
+               w3-center">
+            <a class="w3-btn
+               w3-xxlarge
+               w3-round-medium
+               native-button-green"
+               href="registroUsuarioE.jsp">Registrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="organization" 
+         class="w3-row
+         native-full-height
+         native-bg-grey">
+      
+      <div class="w3-row
+           w3-hide-large
+           w3-center">
+        <h2 class="w3-hide-small">Encuentre a Jóvenes capacitados y entusiastas... </h2>
+        <h4 class="w3-hide-medium">Encuentre a Jóvenes capacitados y entusiastas... </h4>
+      </div>
+      
+      <div class="w3-col
+           l6
+           s12
+           w3-hide-medium
+           w3-hide-small
+           w3-display-container
+           native-full-height
+           native-bg-grey">
+        <div class="w3-display-middle
+             native-text-jumbo">
+          <div class="w3-row">
+            <h1 class="native-jumbo-text">Encuentre a Jóvenes capacitados y entusiastas...</h1>
+          </div>          
+          <div class="w3-row
+               w3-center">
+            <a class="w3-btn
+               w3-xxlarge
+               w3-round-medium
+               native-button-blue"
+               href="registroOrganizacion.jsp">Registre a su organización</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-col
+           l6
+           m12
+           s12
+           native-full-height
+           native-bg-grey">
+        
+        <div class="w3-hide-small
+             w3-hide-medium
+             w3-display-container
+             native-bennefits-list-container-parent">
+          
+          <div class="w3-row
+               w3-display-middle
+               native-bennefits-list-container-child">
+            <div class="w3-row">
+              <div class="w3-col
+                   l2">
+                <!--Empty-->
+                &nbsp;
+              </div>
+              
+              <div class="w3-col
+                   l8">
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center">
+                    <i class="far 
+                       fa-check-square"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    Encuentre jovenes con las competencias requeridas para sus vacantes
+                  </div>
+                </div>
+
+                <br>
+                
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center">
+                    <i class="fas 
+                       fa-graduation-cap"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    Conozca mejor a sus aplicantes
+                  </div>
+                </div>
+                
+                <br>
+                
+                <div class="w3-row-padding">
+                  <div class="w3-col
+                       l2
+                       w3-center">
+                    <i class="fas 
+                       fa-book-open"
+                       style="font-size: 50px;"></i>
+                  </div>
+                  <div class="w3-col
+                       l10">
+                    Publique articulos que apoyen a los jovenes a desempeñarse 
+                    mejor en su entorno laboral
+                  </div>
+                </div>
+              </div>
+              
+              <div class="w3-col
+                   l2">
+                <!--Empty-->
+                &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="w3-hide-large
+             w3-hide-small">
+          <!--Medium-->
+        </div>
+        
+        <div class="w3-hide-large
+             w3-hide-medium">
+          <!--Small-->
+        </div>
+      </div>
+    </div>
+    
+    <!--Contact Container-->
+    
+    <div id="contact"
+         class="w3-row
+         w3-container
+         native-bg-green
+         native-text-white
+         native-contact-container">
+      
+      <div class="w3-row">
+        <h4 class="w3-center">Contacto</h4>
+        <br>
+      </div>
+      
+      <div class="w3-row-padding">
+        <div class="w3-col
+             l6
+             m6
+             s12">
+          <div class="w3-row-padding">
+            <p>Si tienes dudas, quejas o sugerencias háznoslo saber</p>
+          </div>
+          
+          <div class="w3-row-padding">
+            <div class="w3-col
+                 l2
+                 m2
+                 s2">
+              <i class="fas 
+                 fa-map-marker-alt
+                 w3-right
+                 w3-text-black"></i>
+            </div>
+            <div class="w3-col
+                 l10
+                 m10
+                 s10">
+              CDMX, México
+            </div>
+          </div>
+          
+          <br>
+          
+          <div class="w3-row-padding">
+            <div class="w3-col
+                 l2
+                 m2
+                 s2">
+              <i class="fas 
+                 fa-envelope
+                 w3-right
+                 w3-text-black"></i>
+            </div>
+            <div class="w3-col
+                 l10
+                 m10
+                 s10">
+              dot.software@gmail.com
+            </div>            
+          </div>
+          
+          <br> 
+          
+          <div class="w3-row-padding">
+            <div class="w3-col
+                 l2
+                 m2
+                 s2">
+              <i class="fas 
+                 fa-gavel
+                 w3-right
+                 w3-text-black"></i>
+            </div>
+            <div class="w3-col
+                 l10
+                 m10
+                 s10">
+              <a href="#">Aviso de privacidad</a>
+            </div>            
+          </div>
+          
+          <div class="w3-hide-large
+               w3-hide-medium">
+            <br>
+          </div>
+        </div>
+        
+        <div class="w3-col
+             l6
+             m6
+             s12">
+          <form>
+            <div class="w3-row-padding">
+              <div class="w3-col
+                   l6
+                   m6
+                   s12">
+                <input type="text"
+                       class="w3-input
+                       w3-round-small
+                       w3-white"
+                       id="nameCom"
+                       name="nameCom"
+                       placeholder="Nombre"
+                       required>
+              </div>
+              
+              <div class="w3-hide-large
+                   w3-hide-medium">
+                <br><br><br>
+              </div>
+              
+              <div class="w3-col
+                   l6
+                   m6
+                   s12">
+                <input type="email"
+                       class="w3-input
+                       w3-round-small
+                       w3-white"
+                       id="mailCom"
+                       name="mailCom"
+                       placeholder="Correo"
+                       required>
+              </div>
+            </div>
+           
+            <br>
+            
+            <div class="w3-row-padding
+                 w3-center">
+              <div class="w3-col
+                   l12
+                   m12
+                   s12">
+                <textArea class="w3-input
+                        w3-round-small
+                        w3-white"
+                        placeholder="Comentario(s)"></textarea>
+              </div>
+            </div>
+            
+            <br>
+            
+            <div class="w3-row-padding
+                 w3-center">
+              <div class="w3-col
+                   l12
+                   m12
+                   s12">
+                <input type="submit"
+                     class="w3-btn
+                     w3-medium
+                     w3-round-small
+                     native-button-green"
+                     style="width: 100%;"
+                     value="Enviar">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!--Footer-->
+    
+    <footer class="w3-row
+            w3-container
+            w3-center
+            native-bg-grey
+            native-footer-container">
+      <a href="#main">
+        <i class="fas 
+         fa-angle-up
+         native-text-blue"
+         style="font-size: 30px;"></i>
+      </a>
+      <br>
+      <small>Desarrollado por DOT Software</small>
+    </footer>
+  </body>
+</html>
